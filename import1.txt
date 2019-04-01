@@ -1,0 +1,2 @@
+COCA1,Coca cola 600ML,8,11,5,150
+PEPSI1,Pepsi 600ml,7,10,10,150

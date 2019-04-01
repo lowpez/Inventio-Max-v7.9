@@ -1,0 +1,17 @@
+Autor: evilnapsis
+Sitio web: http://evilnapsis.com/product/inventio-max/
+
+// Instalacion de Inventio Max en XAMPP en Windows
+
+1.- Copiar la carpeta del sistema a la direccion c:\xampp\htdocs\ de manera que el sistema quede c:\xampp\htdocs\inventio-max
+2.- Instalar la base de datos contenida en el archivo c:\xampp\htdocs\inventio-max\schema.sql, puede ser desde PHPMyAdmin o desde la terminal
+2.1 Desde la terminal
+cd \xampp\mysql\bin
+mysql -uroot
+source \xampp\htdocs\inventio-max\schema.sql
+/* tambien puedes copiar el contenido del archivo schema.sql y pegarlo en la terminal */
+3.- Modificar el archivo de conexion a la base de datos en caso de ser necesario c:\xampp\htdocs\inventio-max\core\controller\Database.php
+4.- Acceder al sistema desde el navedador usando la direccion http://localhost/inventio-max/
+- Datos de acceso -
+Usuario: admin
+Password: admin
